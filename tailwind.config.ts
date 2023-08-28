@@ -8,11 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        primary: '#E1A730',
+        secondary: '#1715130D',
+        brandPrimary: '#997332',
+        brandSecondary: '#171513',
+        textBody: '#0D0C0BCC',
+        textHeading: '#0D0C0B',
+        textWhite: '#FFFFFF',
+        line: '#0D0C0B1A',
+        borderColor: '#0D0C0B'
+      }
     },
   },
   plugins: [],
